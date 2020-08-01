@@ -2,7 +2,7 @@ body{
     background:url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png");
     full:100%;
     auto:0 auto;
-    align:center;
+    align: center;
 }
 
 /*sass variables used*/
@@ -48,7 +48,7 @@ p{
     width: auto;
 }
 
-input[type="text"],input[type="email"]{
+input[type="text"],input[type="email"],input[type="password"]{
     width:98%;
     padding:15px 0px 15px 8px;
     border-radius:5px;
@@ -95,11 +95,11 @@ input[type="submit"]:hover{
     cursor:pointer;
 }
 
-.name-help,.email-help{
-    display:none;
-    padding:0px;
-    margin:0px 0px 15px 0px;
-}
+/*.name-help{*/
+    /*display:none;*/
+    /*padding:0px;*/
+    /*margin:0px 0px 15px 0px;*/
+/*}*/
 
 .optimize{
     position:fixed;

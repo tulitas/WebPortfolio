@@ -17,4 +17,12 @@ public class SiteController {
     public ModelAndView registration() {
         return new ModelAndView("registration");
 
-    }}
+    }
+
+    @RequestMapping("/reg")
+    public ModelAndView reg() {
+        return new ModelAndView("reg");
+
+    }
+
+}

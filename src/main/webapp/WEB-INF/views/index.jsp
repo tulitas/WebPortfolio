@@ -23,7 +23,7 @@
         <%--<button type="submit" class="btn btn-primary btn-block btn-large">Let me up.</button>--%>
 
     </form>
-    <button onclick="location.href='/registration'" class="btn-primary btn-block btn-large">Registration</button>
+    <button onclick="location.href='/registration.js'" class="btn-primary btn-block btn-large">Registration</button>
 </div>
 </body>
 </html>
