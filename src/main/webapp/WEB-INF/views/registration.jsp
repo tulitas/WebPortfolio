@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: SergejK
+  Users: SergejK
   Date: 30-Jul-20
   Time: 09:30 PM
   To change this template use File | Settings | File Templates.
@@ -21,17 +21,17 @@
 
 
 <nav>
-    <a href="#!">
+    <a href="${pageContext.request.contextPath}/">
         <span>HOME</span>
     </a>
     <a href="#!">
-        <span>ABOUT</span>
+        <span>A</span>
     </a>
     <a href="#!">
-        <span>CONTACT</span>
+        <span>C</span>
     </a>
     <a href="#!">
-        <span>FAQ</span>
+        <span>F</span>
     </a>
 </nav>
 
@@ -41,27 +41,27 @@
     <p>To sign-up for a free basic account please provide us with some basic information using
         the contact form below. Please use valid credentials.</p>
 
-    <form class="form" method="post" action="">
-        <input type="text" class="name" placeholder="Name" autocomplete="off" id="name">
+    <form class="form" method="post" action="${pageContext.request.contextPath}options/create">
+        <input type="text" class="name" placeholder="Name" autocomplete="off" id="name" name="name">
         <div>
             <p class="name-help">Please enter your name.</p>
         </div>
 
-        <input type="email" class="email" placeholder="Email" id="email" autocomplete="off">
+        <input type="email" class="email" placeholder="Email" id="email" autocomplete="off" name="email">
         <div>
             <p class="email-help">Please enter your current email address.</p>
         </div>
 
-        <input type="password" class="password" placeholder="password" id="password" autocomplete="off">
+        <input type="password" class="password" placeholder="password" id="password" autocomplete="off" name="password">
         <div>
             <p class="email-help">Please enter your password.</p>
         </div>
-        <output name="regDate" style="color: #1A878F" id="current_date_time_block"></output>
 
+        <textarea hidden  name="regTime" type="text" id="current_date_time_block"></textarea>
         <input type="submit" class="submit" value="Register">
 
     </form>
-
+    <%--<output name="regDate" style="color: #1A878F" id="current_date_time_block"></output>--%>
 </div>
 <p class="optimize">
     Optimized for Chrome & Firefox!

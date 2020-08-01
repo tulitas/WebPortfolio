@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Portfolio" uuid="3a065d7d-901f-474c-a76e-0f27c0ffd87d">
+    <data-source source="LOCAL" name="Web Portfolio" uuid="97085864-9c99-4241-8676-6d77834fcb17">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3338/portfolio</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3338</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
