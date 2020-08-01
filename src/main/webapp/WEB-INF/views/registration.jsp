@@ -17,6 +17,25 @@
 <body>
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+
+<nav>
+    <a href="#!">
+        <span>HOME</span>
+    </a>
+    <a href="#!">
+        <span>ABOUT</span>
+    </a>
+    <a href="#!">
+        <span>CONTACT</span>
+    </a>
+    <a href="#!">
+        <span>FAQ</span>
+    </a>
+</nav>
+
+
 <div class="wrapper">
     <h1>Register For An Account</h1>
     <p>To sign-up for a free basic account please provide us with some basic information using
@@ -37,11 +56,10 @@
         <div>
             <p class="email-help">Please enter your password.</p>
         </div>
-
-        <label for="current_date_time_block">Time set automatically</label>
-        <textarea name="regDate" id="current_date_time_block"></textarea>
+        <output name="regDate" style="color: #1A878F" id="current_date_time_block"></output>
 
         <input type="submit" class="submit" value="Register">
+
     </form>
 
 </div>
